@@ -1,0 +1,211 @@
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <title>HTTP 406 Not Acceptable</title>
+    <style>
+        body {
+            color: rgb(87, 87, 87);
+            font-family: "Segoe UI", "verdana", "arial";
+            margin-top: 20px;
+            margin-left: 20px;
+            background-image: url("background_gradient.jpg");
+            background-repeat: repeat-x;
+            background-color: rgb(232, 234, 239);
+        }
+
+        body.securityError {
+            font-family: "Segoe UI", "verdana", "Arial";
+            margin-top: 20px;
+            margin-left: 20px;
+            background-image: url("background_gradient_red.jpg");
+            background-repeat: repeat-x;
+            background-color: rgb(232, 234, 239);
+        }
+
+        body.tabInfo {
+            background-image: none;
+            background-color: rgb(244, 244, 244);
+        }
+
+        a {
+            color: rgb(19, 112, 171);
+            font-size: 1em;
+            font-weight: normal;
+            text-decoration: none;
+            margin-left: 0px;
+            vertical-align: top;
+        }
+
+        a:link {
+            color: rgb(19, 112, 171);
+            text-decoration: none;
+            vertical-align: top;
+        }
+
+        a:visited {
+            color: rgb(19, 112, 171);
+            text-decoration: none;
+            vertical-align: top;
+        }
+
+        a:hover {
+            color: rgb(7, 74, 229);
+            text-decoration: underline;
+        }
+
+        p {
+            font-size: 0.9em;
+        }
+
+        h1 {
+            color: rgb(68, 101, 162);
+            font-size: 1.1em;
+            font-weight: normal;
+            margin-top: 7px;
+            margin-bottom: 4px;
+            vertical-align: bottom;
+        }
+
+        h2 {
+            font-size: 0.9em;
+            font-weight: normal;
+            margin-top: 20px;
+            margin-bottom: 1px;
+        }
+
+        h3 {
+            font-size: 0.9em;
+            font-weight: normal;
+            margin-top: 10px;
+            margin-bottom: 1px;
+        }
+
+        h4 {
+            font-size: 0.9em;
+            font-weight: normal;
+            margin-top: 12px;
+            margin-bottom: 1px;
+        }
+
+        h5 {
+            color: rgb(87, 87, 87);
+            font-size: 0.9em;
+            font-weight: normal;
+            margin-top: 1px;
+            margin-bottom: 0px;
+        }
+
+        .actionIcon {
+            margin-top: 0px;
+            margin-right: 6px;
+            vertical-align: middle;
+        }
+
+        .infoBlock {
+            color: rgb(87, 87, 87);
+            padding-left: 25px;
+            font-size: 0.9em;
+            display: block;
+        }
+
+        .errorCodeAndDivider {
+            color: rgb(120, 120, 120);
+            font-size: 0.7em;
+            font-weight: normal;
+        }
+
+        ul {
+            line-height: 1.3em;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            font-size: 0.9em;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            list-style-position: outside;
+        }
+
+        ol {
+            line-height: 1.3em;
+            padding-top: 1px;
+            padding-bottom: 1px;
+            font-size: 0.9em;
+            margin-top: 1px;
+            margin-bottom: 1px;
+            list-style-position: outside;
+        }
+
+        .divider {
+            border-bottom-color: rgb(182, 188, 198);
+            border-bottom-width: 1px;
+            border-bottom-style: solid;
+        }
+    </style>
+</head>
+<body onLoad="javascript:expandCollapse('infoBlockID', true); initGoBack(); initMoreInfo(
+'infoBlockID');">
+<table width="730" cellpadding="0" cellspacing="0" border="0"><!-- Error title -->
+    <tr>
+        <td id="infoIconAlign" width="60" align="left" valign="top" rowspan="2"><img src="/img/info_48.png"
+                                                                                               id="infoIcon"
+                                                                                               alt="Info icon">
+        </td>
+        <td id="mainTitleAlign" valign="middle" align="left" width="*"><h1 id="mainTitle">This application can
+                not be used with Internet Explorer because it does not properly support HTML5</h1></td>
+    </tr>
+    <tr><!-- This row is for HTTP status code, as well as the divider-->
+        <td id="http404Align" class="errorCodeAndDivider" align="right">
+            <ID id="http406">&nbsp;HTTP 406</ID>
+            <div class="divider"></div>
+        </td>
+    </tr>
+    <!-- Error Body --><!-- What you can do -->
+    <tr>
+        <td>&nbsp;</td>
+        <td id="likelyCausesAlign" valign="top" align="left"><h2 id="whatToTry">What you can try:</h2></td>
+    </tr>
+    <!-- back to previous page -->
+    <tr>
+        <td>&nbsp;</td>
+        <td id="whatToTryAlign" align="left" valign="middle">
+            <h4>
+                <table>
+                    <tr>
+                        <td valign="top"><img src="/img/bullet.png" border="0" alt="" class="actionIcon"></td>
+                        <td valign="top"><span id="getChromeContainer"></span><span id="getChrome"><a
+                                    href="http://www.google.com/chrome">Download Google Chrome</a></span></td>
+                    </tr>
+                    <tr>
+                        <td valign="top"><img src="/img/bullet.png" border="0" alt="" class="actionIcon"></td>
+                        <td valign="top"><span id="goBackContainer"></span><span id="goBack">Go back to the previous page.</span>
+                        </td>
+                    </tr>
+                </table>
+            </h4>
+        </td>
+    </tr>
+    <!-- InfoBlock -->
+    <tr>
+        <td id="infoBlockAlign" align="right" valign="top">&nbsp;</td>
+        <td id="moreInfoAlign" align="left" valign="middle">
+            <h4>
+                <table>
+                    <tr>
+                        <td valign="top"><a href="#" onclick="javascript:expandCollapse('infoBlockID', true);
+                                              return false;"><img src="/img/down.png" id="infoBlockIDImage"
+                                                                   border="0" class="actionIcon" alt="More
+                                                                   information"></a></td>
+                        <td valign="top"><span id="moreInfoContainer"></span><span><ID id="moreInformation">More
+                                    information
+                                </ID></span></td>
+                    </tr>
+                </table>
+            </h4>
+            <div id="infoBlockID" class="infoBlock"><p id="errorExplanation">This error (HTTP 406 Not Acceptable)
+                    means that Internet Explorer was able to receive information from the website you visited, but the
+                    information was not in a format that Internet Explorer can display.</p>
+
+                <p id="moreInfoSeeHelp">For more information about HTTP errors, see Help.</p></div>
+        </td>
+    </tr>
+</table>
+</body></html>
