@@ -22,6 +22,7 @@ Installation
 
 #### With composer
 1. Add this project in your composer.json:
+
   ```json
   "require": {
     "aronkerr/no-ie": "dev-master"
@@ -29,6 +30,7 @@ Installation
   ```
   
 2. Now tell composer to download NoIE by running the command:
+
   ```bash
   $ php composer.phar update
   ```
@@ -36,6 +38,7 @@ Installation
 #### Post Installation
 1. Move the files contained in this projects public directory to your `./public` directory.
 2. Enable the module in your `applicatiion.config.php` file.
+
   ```php
   <?php
   return array(
